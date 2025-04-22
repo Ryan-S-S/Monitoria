@@ -15,12 +15,9 @@ def create_model(numInput):
 
   return model
 
-
-#Carregando os dados
-X = np.genfromtxt('drive/MyDrive/TensorFlow/DataSets/iris.data', delimiter=',')
-X = np.delete(X,4,1)
-Y = np.array([0,1,2])
-Y = np.repeat(Y,50)
+# Dataset Iris
+from sklearn.datasets import load_iris
+X, Y = load_iris(return_X_y=True, as_frame=True)
 
 #Separando os dados
 X_gym, X_game, Y_gym, Y_game = train_test_split(X,Y,test_size=0.2)
