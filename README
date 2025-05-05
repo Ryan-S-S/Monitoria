@@ -9,7 +9,7 @@ Recomenda-se a execução dos códigos no ambiente Google Colab, devido à sua p
 ⚙️ Caso deseje rodar os arquivos localmente, siga os passos abaixo:
 
     - Clone o repositório:
-        git clone https://github.com/seu-usuario/nome-do-repositorio.git
+        git clone https://github.com/Ryan-S-S/Monitoria
         cd nome-do-repositorio
 
     - Crie um ambiente virtual (recomendado):
@@ -22,8 +22,13 @@ Recomenda-se a execução dos códigos no ambiente Google Colab, devido à sua p
         Observação: certifique-se de ter o Python instalado (recomenda-se a versão 3.9 ou superior).
 
 📁 Acesso Alternativo
-Todo o material também está disponível em uma pasta no Google Drive, que pode ser acessada pelo seguinte link: [Inserir Link Aqui]
+Todo o material também está disponível em uma pasta no Google Drive, que pode ser acessada pelo seguinte link:
+    https://drive.google.com/drive/folders/1XkpLgezhjnOn90QiiXcTq_bDFoS7W2sU?usp=sharing
 
 ⚠️ Arquivos com Problemas
-Cinco códigos presentes neste repositório não estão funcionando corretamente ( KNN Filme e Salário, Fuzzy_IMC, Regressão linear Multipla e exemplo do Taxi ), devido a problemas nos datasets utilizados ou erros no código original.
+Cinco códigos presentes neste repositório não estão funcionando corretamente:
+
+    ( KNN Filme e Salário, Fuzzy_IMC, Regressão linear Multipla e exemplo do Taxi )
+
+Devido a problemas nos datasets utilizados ou erros no código original.
 Não foi possível corrigi-los no momento, pois não executavam adequadamente no meu ambiente de desenvolvimento local.
