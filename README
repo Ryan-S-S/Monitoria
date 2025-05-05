@@ -1,0 +1,29 @@
+** Material de Estudos Inteligência Computacional e Análise de Dados **
+
+Este repositório reúne códigos e materiais desenvolvidos por antigos monitores sob orientação do professor Ítalo Di Paolo. 
+Os conteúdos estão relacionados aos temas de Inteligência Computacional e Programação em Python, e foram revisados por mim.
+
+📌 Recomendação de Execução
+Recomenda-se a execução dos códigos no ambiente Google Colab, devido à sua praticidade e compatibilidade com os notebooks .ipynb.
+
+⚙️ Caso deseje rodar os arquivos localmente, siga os passos abaixo:
+
+    - Clone o repositório:
+        git clone https://github.com/seu-usuario/nome-do-repositorio.git
+        cd nome-do-repositorio
+
+    - Crie um ambiente virtual (recomendado):
+        python -m venv venv
+        source venv/bin/activate  # Linux/macOS
+        venv\Scripts\activate     # Windows
+
+    - Instale as dependências:
+        pip install -r requirements.txt
+        Observação: certifique-se de ter o Python instalado (recomenda-se a versão 3.9 ou superior).
+
+📁 Acesso Alternativo
+Todo o material também está disponível em uma pasta no Google Drive, que pode ser acessada pelo seguinte link: [Inserir Link Aqui]
+
+⚠️ Arquivos com Problemas
+Cinco códigos presentes neste repositório não estão funcionando corretamente ( KNN Filme e Salário, Fuzzy_IMC, Regressão linear Multipla e exemplo do Taxi ), devido a problemas nos datasets utilizados ou erros no código original.
+Não foi possível corrigi-los no momento, pois não executavam adequadamente no meu ambiente de desenvolvimento local.
