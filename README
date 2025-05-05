@@ -25,5 +25,9 @@ Recomenda-se a execução dos códigos no ambiente Google Colab, devido à sua p
 Todo o material também está disponível em uma pasta no Google Drive, que pode ser acessada pelo seguinte link: [Inserir Link Aqui]
 
 ⚠️ Arquivos com Problemas
-Cinco códigos presentes neste repositório não estão funcionando corretamente ( KNN Filme e Salário, Fuzzy_IMC, Regressão linear Multipla e exemplo do Taxi ), devido a problemas nos datasets utilizados ou erros no código original.
+Cinco códigos presentes neste repositório não estão funcionando corretamente:
+
+    ( KNN Filme e Salário, Fuzzy_IMC, Regressão linear Multipla e exemplo do Taxi )
+
+Devido a problemas nos datasets utilizados ou erros no código original.
 Não foi possível corrigi-los no momento, pois não executavam adequadamente no meu ambiente de desenvolvimento local.
