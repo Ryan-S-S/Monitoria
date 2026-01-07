@@ -1,7 +1,7 @@
-** Material de Estudos Inteligência Computacional e Análise de Dados **
+** Material de Estudos sobre Inteligência Computacional e Análise de Dados **
 
 Este repositório reúne códigos e materiais desenvolvidos por antigos monitores sob orientação do professor Ítalo Di Paolo. 
-Os conteúdos estão relacionados aos temas de Inteligência Computacional e Programação em Python, e foram revisados por mim.
+Os conteúdos estão relacionados aos temas de Inteligência Computacional e Programação em Python.
 
 📌 Recomendação de Execução
 Recomenda-se a execução dos códigos no ambiente Google Colab, devido à sua praticidade e compatibilidade com os notebooks .ipynb.
@@ -12,23 +12,27 @@ Recomenda-se a execução dos códigos no ambiente Google Colab, devido à sua p
         git clone https://github.com/Ryan-S-S/Monitoria
         cd nome-do-repositorio
 
-    - Crie um ambiente virtual (recomendado):
+    - Crie um ambiente virtual (recomendo MUITO):
         python -m venv venv
         source venv/bin/activate  # Linux/macOS
-        venv\Scripts\activate     # Windows
+        venv\Scripts\activate       #Windons cmd
+        venv\Scripts\Activate.ps1     # Windons PowerShell
+        
+        ! Casso haja um erro de permissão no windons, use:
+            Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 
-    - Instale as dependências:
+    - Crie um Kernel do Jupyter:
+        pip install ipykernel
+        python -m ipykernel install --user --name=venv --display-name "Monitoria"
+        Observação: certifique-se de ter o Python instalado (recomenda-se a versão 3.9 ou superior)
+    
+    - Instale as dependências no seu kernel:
         pip install -r requirements.txt
-        Observação: certifique-se de ter o Python instalado (recomenda-se a versão 3.9 ou superior).
+
+❗ Aviso
+Alguns códigos foram feitos otimizados para rodar no google colab, como o MiniMax e os CNNs.
+Caso enfrente dificuldades na execução deles, tente usar o Colab.
 
 📁 Acesso Alternativo
 Todo o material também está disponível em uma pasta no Google Drive, que pode ser acessada pelo seguinte link:
     https://drive.google.com/drive/folders/1XkpLgezhjnOn90QiiXcTq_bDFoS7W2sU?usp=sharing
-
-⚠️ Arquivos com Problemas
-Cinco códigos presentes neste repositório não estão funcionando corretamente:
-
-    ( KNN Filme e Salário, Fuzzy_IMC, Regressão linear Multipla e exemplo do Taxi )
-
-Devido a problemas nos datasets utilizados ou erros no código original.
-Não foi possível corrigi-los no momento, pois não executavam adequadamente no meu ambiente de desenvolvimento local.
